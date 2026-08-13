@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [3
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "welcome to comfy corner :3",     // this is what people actually see
+        state: "welcome to comfy corner",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
@@ -93,8 +93,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#E6E6FA",
-      secondary: "#89CFF0",
+      primary: "#57F287",
+      secondary: "#57F287",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
